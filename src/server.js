@@ -20,7 +20,7 @@ async function main() {
   initSocket(httpServer);
 
   httpServer.listen(PORT, () => {
-    console.log(`Server listening on http://localhost:${PORT}`);
+    console.log(`Server listening on port ${PORT}`);
   });
 }
 
